@@ -1,0 +1,12 @@
+sources:
+  - name: balancer
+    handler:
+      graphql:
+        endpoint: https://api.thegraph.com/subgraphs/name/balancer-labs/balancer
+  - name: enzyme
+    handler:
+      graphql:
+        endpoint: https://api.thegraph.com/subgraphs/name/enzymefinance/enzyme
+
+documents:
+  - ./sample-query.graphql
